@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  ******************************************************************************/
 
-import Cocoa
+import Foundation
 
 /**
  * Thread-safe value wrapper for `NSMutableDictionary`, using dispatch queues to

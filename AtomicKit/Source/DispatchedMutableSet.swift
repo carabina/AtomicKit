@@ -22,7 +22,7 @@
  * THE SOFTWARE.
  ******************************************************************************/
 
-import Cocoa
+import Foundation
 
 /**
  * Thread-safe value wrapper for `NSMutableSet`, using dispatch queues to
