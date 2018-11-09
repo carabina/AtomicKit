@@ -16,6 +16,8 @@ AtomicKit
 About
 -----
 
+This is the [macmade/AtomicKit](https://github.com/macmade/AtomicKit) iOS version and support CocoaPods.
+
 **Concurrency made simple in Swift.**
 
 **AtomicKit** is a Swift framework designed to ease dealing with concurrency in Swift projects.
@@ -28,6 +30,19 @@ Apple's GCD (Grand Central Dispatch) is absolutely awesome when it comes to sync
 Writing atomic/dispatched getters and setters is not a big deal, but it currently leads to a lot of boilerplate code, which I like to avoid in my projects.
 
 The **AtomicKit** project intends to simplify this, by adding easy-to-use synchronization Swift types.
+
+Requirements
+-------------
+
+- iOS 10.0 or higher
+- Swift 4.2 or higher
+
+Installation
+-------------
+
+```ruby
+pod "AtomicKit"
+```
 
 Documentation
 -------------
